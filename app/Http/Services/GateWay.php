@@ -15,10 +15,10 @@ class GateWay
                     "content" => "$content"]
             ]
         ];
-        $url = "https://sms.unired.uz/api/sms";
+        $url = "https://sms/api/sms";
         $ch = curl_init($url);
         curl_setopt($ch, CURLOPT_HTTPHEADER, array(
-                'Authorization: Bearer 74244271-4bb0-4510-966d-aa7238e753f8',
+                'Authorization: Bearer ',
                 'Content-Type: application/json',
                 "Accept: application/json",
             )
